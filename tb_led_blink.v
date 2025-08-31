@@ -24,7 +24,7 @@ module tb_led_blink;
     $dumpvars(0, tb_led_blink);
     $monitor("Time: %0dns, LED: %b", $time, led);
 
-    #2000;   // Run for 1ns
+    #1000;   // Run for 1us
     $finish;
   end
 
